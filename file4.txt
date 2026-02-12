@@ -1,0 +1,5 @@
+def is_palindrone(s):
+	return s==s[::-1]
+print(is_palindrone("madam"))
+print(is_palindrone("hello"))
+
